@@ -1,5 +1,5 @@
 
-```markdown
+
 # Cookie Clicker
 
 Cookie Clicker is a simple and fun Python-based game where the player clicks a button to "bake" cookies. The goal is to bake as many cookies as possible.
