@@ -1,40 +1,23 @@
+## Cookie Clicker Automator with Python and Selenium
 
+This Python script utilizes Selenium to automate the gameplay of Cookie Clicker ([https://orteil.dashnet.org/cookieclicker/v10466/](https://orteil.dashnet.org/cookieclicker/v10466/)). 
 
-# Cookie Clicker
+### Features
 
-Cookie Clicker is a simple and fun Python-based game where the player clicks a button to "bake" cookies. The goal is to bake as many cookies as possible.
+* Continuously clicks the giant cookie.
+* Periodically checks for purchasable upgrades and buys the most expensive affordable one.
+* (Optional) Set a custom run time to control how long the bot plays.
 
-## Features
+### Requirements
 
-- Simple and interactive gameplay
-- Click to bake cookies
+* Python 3
+* Selenium library (`pip install selenium`)
+* WebDriver for your desired browser (e.g., ChromeDriver for Chrome)
 
-## Installation
+### Usage
 
-To run the Cookie Clicker game locally, follow these steps:
+1. Download and install the required libraries.
+2. Download the appropriate WebDriver for your browser and place it in your project directory or on your system path.
+3. Configure the `chrome_driver_path` variable in the script to point to your WebDriver location.
+4. Run the script: `python cookie_clicker_bot.py`
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/cookie-clicker.git
-   ```
-2. **Navigate to the project directory:**
-   ```bash
-   cd cookie-clicker
-   ```
-3. **Install the required dependencies:**
-   Ensure you have Python installed, then run:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-Run the main application script to start the game:
-
-```bash
-python main.py
-```
-
-## Project Structure
-
-- `main.py`: The main entry point for the application.
